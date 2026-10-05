@@ -1,4 +1,8 @@
 # Prodaja Knjiga
+
+# Demo 
+https://github.com/user-attachments/assets/4df445ba-8d25-4d13-8e08-8fa32b62efd1
+
 ## Opis aplikacije
 Prodaja Knjiga je desktop aplikacija u **Javi** za praćenje prodaje knjiga, realizovana po **klijent-server arhitekturi**. Omogućava radniku da evidentira prodaju knjiga kroz račune, vodi evidenciju o kupcima i njihovim kategorijama, o knjigama, o radnicima i smenama u kojima rade, kao i da pretražuje i menja već unete podatke.
 
