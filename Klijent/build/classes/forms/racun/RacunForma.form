@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="2"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="scrollRacun" min="-1" pref="700" max="32767" attributes="0"/>
+                  <Component id="panelJug" min="-1" pref="-1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="panelJug" min="-2" pref="-1" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="scrollRacun" min="-1" pref="350" max="32767" attributes="0"/>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="scrollRacun">
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tblRacun">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="panelJug">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="panelFilter" min="-1" pref="-1" max="32767" attributes="0"/>
+              <Component id="panelDugmadi" min="-1" pref="-1" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="panelFilter" min="-2" pref="-1" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="panelDugmadi" min="-2" pref="-1" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="panelFilter">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblKupac" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblRadnik" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblKnjiga" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblIdRacun" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtKupac" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="txtRadnik" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="txtKnjiga" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="txtId" min="-2" pref="-1" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cmbKupac" min="-2" pref="160" max="32767" attributes="0"/>
+                          <Component id="cmbRadnik" min="-2" pref="160" max="32767" attributes="0"/>
+                          <Component id="cmbKnjiga" min="-2" pref="160" max="32767" attributes="0"/>
+                          <Component id="cmbId" min="-2" pref="160" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnResetKupac" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnResetRadnik" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnResetKnjiga" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btnResetId" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblKupac" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtKupac" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="cmbKupac" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="btnResetKupac" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblRadnik" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtRadnik" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="cmbRadnik" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="btnResetRadnik" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblKnjiga" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtKnjiga" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="cmbKnjiga" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="btnResetKnjiga" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblIdRacun" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtId" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="cmbId" min="-2" pref="-1" max="-2" attributes="0"/>
+                          <Component id="btnResetId" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lblKupac">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kupac:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtKupac">
+              <Properties>
+                <Property name="columns" type="int" value="10"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbKupac">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnResetKupac">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X"/>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[top=2,left=4,bottom=2,right=4]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetKupacActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblRadnik">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Radnik:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtRadnik">
+              <Properties>
+                <Property name="columns" type="int" value="10"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbRadnik">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnResetRadnik">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X"/>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[top=2,left=4,bottom=2,right=4]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetRadnikActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblKnjiga">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Knjiga:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtKnjiga">
+              <Properties>
+                <Property name="columns" type="int" value="10"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbKnjiga">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnResetKnjiga">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X"/>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[top=2,left=4,bottom=2,right=4]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetKnjigaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lblIdRacun">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="idRacun:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtId">
+              <Properties>
+                <Property name="columns" type="int" value="6"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="cmbId">
+            </Component>
+            <Component class="javax.swing.JButton" name="btnResetId">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X"/>
+                <Property name="margin" type="java.awt.Insets" editor="org.netbeans.beaninfo.editors.InsetsEditor">
+                  <Insets value="[top=2,left=4,bottom=2,right=4]"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnResetIdActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="panelDugmadi">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace pref="0" max="32767" attributes="0"/>
+                      <Component id="btnPretraziRacune" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnIzmeni" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnPretraziRacune" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnIzmeni" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="btnPretraziRacune">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pretraži"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPretraziRacuneActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnIzmeni">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Izmeni"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIzmeniActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
