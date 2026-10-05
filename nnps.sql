@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS nnps DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE IF NOT EXISTS prodajaKnjiga DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
-USE nnps;
+USE prodajaKnjiga;
 
 DROP TABLE IF EXISTS radniksmena;
 DROP TABLE IF EXISTS stavkaracuna;
